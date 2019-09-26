@@ -2,6 +2,11 @@
   border-left: 2px solid black;
 }
 
+
+h2 {
+  transform: rotate(-90deg);
+}
+
 /* 
 footer */
 
