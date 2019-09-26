@@ -1,4 +1,7 @@
-.menu1 .menu2 .menu3 .menu4 {
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
   border-left: 2px solid black;
 }
 
