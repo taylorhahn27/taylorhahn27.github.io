@@ -1,10 +1,18 @@
-.menu1,
-.menu2,
-.menu3,
-.menu4 {
+.menu1 {
   border-left: 2px solid black;
 }
 
+.menu2 {
+  border-left: 2px solid black;
+}
+
+.menu3 {
+  border-left: 2px solid black;
+}
+
+.menu4 {
+  border-left: 2px solid black;
+}
 
 h2 {
   transform: rotate(-90deg);
