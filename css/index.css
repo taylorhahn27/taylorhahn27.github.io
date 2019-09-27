@@ -1,7 +1,12 @@
-@media (max-width:600px) {
+/* @media (max-width:600px) {
   .menu-heading {
     transform: rotate(90deg);
   }
+} */
+
+.menu-header {
+  transform: rotate(-90deg);
+  position: absolute;
 }
 
 /* 
