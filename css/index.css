@@ -1,5 +1,7 @@
-.menu-heading {
-  transform: rotate(45deg);
+@media (max-width:600px) {
+  .menu-heading {
+    transform: rotate(90deg);
+  }
 }
 
 /* 
