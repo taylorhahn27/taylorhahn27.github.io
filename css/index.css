@@ -164,12 +164,22 @@ input[type="submit"]:hover {
   position: absolute;
 } */
 
-.menu1,
-.menu2,
-.menu3,
-.menu4 {
-  border-left: 2px solid black;
+.menu-divider {
+  padding-bottom: 50px;
+  border-bottom: 2px dotted;
 }
+
+.menu-section {
+  border-left: 1px solid black;
+}
+
+
+h3 {
+  transform: rotate(-90deg);
+  position: absolute;
+}
+
+
 
 /* hero image */
 .jumbotron {
@@ -212,6 +222,7 @@ body {
 
 
 .menu-text {
+  border-bottom: 1px dashed;
   text-transform: uppercase;
   font-size: 18px;
   color: black !important;
