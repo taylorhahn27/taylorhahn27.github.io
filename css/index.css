@@ -4,10 +4,13 @@
   }
 } */
 
-.menu-header {
-  transform: rotate(-90deg);
-  position: absolute;
+@media (min-width: 576px) {
+  .menu-header {
+    /* transform: rotate(-90deg); */
+    position: fixed;
+  }
 }
+
 
 /* 
 footer */
