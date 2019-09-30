@@ -17,6 +17,12 @@
   height: auto;
 } */
 
+@media (min-width: 576px) {
+  .menu-header {
+    display: none;
+  }
+}
+
 .row.row-grid [class*="col-"] + [class*="col-"] {
   margin-top: 15px;
 }
