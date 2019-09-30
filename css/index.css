@@ -217,7 +217,7 @@ body {
 }
 
 .breaker {
-  background-image: "images/yellowbanner.jpg";
+  background-image: url("images/yellowbanner.jpg");
   height: 200px;
 }
 
