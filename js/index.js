@@ -6,7 +6,6 @@ $(window).on("resize", function() {
 });
 
 //Menu On Hover
-
 $("body").on("mouseenter mouseleave", ".nav-item", function(e) {
   if ($(window).width() > 750) {
     var _d = $(e.target).closest(".nav-item");
@@ -18,14 +17,14 @@ $("body").on("mouseenter mouseleave", ".nav-item", function(e) {
 });
 
 // replacing one div with another div
-function showMicro() {
-  var str = document.getElementById("demo").innerHTML;
-  var res = str.replace("W3Schools", "Microsoft");
-  document.getElementById("demo").innerHTML = res;
-}
+// function showMicro() {
+//   var str = document.getElementById("demo").innerHTML;
+//   var res = str.replace("W3Schools", "Microsoft");
+//   document.getElementById("demo").innerHTML = res;
+// }
 
-function showw3c() {
-  var str = document.getElementById("demo").innerHTML;
-  var res = str.replace("Microsoft", "W3Schools");
-  document.getElementById("demo").innerHTML = res;
-}
+// function showw3c() {
+//   var str = document.getElementById("demo").innerHTML;
+//   var res = str.replace("Microsoft", "W3Schools");
+//   document.getElementById("demo").innerHTML = res;
+// }
