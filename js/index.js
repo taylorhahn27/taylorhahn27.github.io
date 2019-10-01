@@ -16,3 +16,16 @@ $("body").on("mouseenter mouseleave", ".nav-item", function(e) {
     }, 1);
   }
 });
+
+// replacing one div with another div
+function showMicro() {
+  var str = document.getElementById("demo").innerHTML;
+  var res = str.replace("W3Schools", "Microsoft");
+  document.getElementById("demo").innerHTML = res;
+}
+
+function showw3c() {
+  var str = document.getElementById("demo").innerHTML;
+  var res = str.replace("Microsoft", "W3Schools");
+  document.getElementById("demo").innerHTML = res;
+}
