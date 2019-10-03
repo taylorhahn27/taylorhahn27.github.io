@@ -1,3 +1,22 @@
+//menu replacing content
+$(".button")
+  .first()
+  .addClass("active");
+
+$(".button").click(function() {
+  var $this = $(this);
+  ($siblings = $this.parent().children()), (position = $siblings.index($this));
+  console.log(position);
+
+  $(".content section")
+    .removeClass("active")
+    .eq(position)
+    .addClass("active");
+
+  $siblings.removeClass("active");
+  $this.addClass("active");
+});
+
 // hero image
 $(".jumbotron").css({ height: $(window).height() + "px" });
 
@@ -28,3 +47,10 @@ $("body").on("mouseenter mouseleave", ".nav-item", function(e) {
 //   var res = str.replace("Microsoft", "W3Schools");
 //   document.getElementById("demo").innerHTML = res;
 // }
+
+//menu switching
+function show(id) {
+  document.getElementById("main_place").innerHTML = document.getElementById(
+    id
+  ).innerHTML;
+}

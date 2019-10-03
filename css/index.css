@@ -1,3 +1,193 @@
+/* .content-info {
+  height: 200px;
+} */
+
+@media (max-width: 767px) {
+  .location,
+  .hours {
+    text-size-adjust: 10px;
+  }
+}
+
+.contact-graphic {
+  margin-top: 0px;
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .second-menu-column {
+    margin-top: 50px;
+  }
+}
+
+/* menu switching */
+
+#eat-menu,
+#drink-menu {
+  display: none;
+}
+
+#eat-button,
+#drink-button {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+#button-background {
+  padding-top: 10px;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color: #c5d9e7;
+}
+
+/*FOOTER*/
+
+.footer-pad {
+  display: block;
+}
+
+/* @media (max-width: 767px) {
+  .footer-logo {
+    display: none;
+  }
+} */
+
+footer {
+  background: #c5d9e7;
+  color: white;
+  /* margin-top: 100px; */
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #fa944b;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44bcdd;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #f9f9f9;
+}
+
+.white-box {
+  width: 450px;
+  height: 130px;
+  background-color: white;
+}
+
+.white-box .btn {
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  display: block;
+}
+
+/* .full-width {
+  width: 100%;
+  background: #c5d9e7;
+}
+
+.wrap {
+  width: 80%;
+  max-width: 24em;
+  margin: 0 auto;
+  padding: 0.25em 0.625em;
+} */
+
 /* @media (max-width:600px) {
   .menu-heading {
     transform: rotate(90deg);
@@ -17,18 +207,19 @@
   height: auto;
 } */
 
-@media (max-width: 767px) {
-  .menu-1 {
-    margin-top: 5px;
-  }
+.navbar-nav a {
+  color: #fff !important;
 }
 
-
 /* sunflower band graphic */
+
 .breaker-image {
   /* height: 150px; */
   width: 100%;
+  /* float: right; */
 }
+
+/* getting rid of menu headers in mobile view */
 
 @media (max-width: 767px) {
   .menu-header {
@@ -38,7 +229,7 @@
 
 /* gallery */
 
-.image>div {
+.image > div {
   padding: 0 4px !important;
 }
 
@@ -48,7 +239,7 @@ img {
 }
 
 /* footer */
-.site-footer {
+/* .site-footer {
   background-color: #c5d9e7;
   padding: 45px 0 20px;
   font-size: 15px;
@@ -121,7 +312,7 @@ img {
 
 .copyright-text {
   margin-top: 30px;
-}
+} */
 
 @media (max-width: 991px) {
   .site-footer [class^="col-"] {
@@ -220,6 +411,7 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
+  margin-bottom: 0;
 }
 
 body {
@@ -247,10 +439,14 @@ body {
 }
 
 .menu-text {
-  border-bottom: 1px dashed;
+  border-bottom: 1px dashed grey;
   text-transform: uppercase;
   font-size: 18px;
   color: black !important;
+}
+
+.menu-price {
+  color: #e4b95b;
 }
 
 /* #Navigation
@@ -356,7 +552,7 @@ body {
 }
 
 .nav-item:hover .nav-link {
-  color: #8167a9 !important;
+  color: #2b8d7b !important;
 }
 
 .nav-item.active .nav-link {
@@ -376,7 +572,7 @@ body {
   width: 100%;
   height: 2px;
   content: "";
-  background-color: #8167a9;
+  background-color: #2b8d7b;
   opacity: 0;
   transition: all 200ms linear;
 }
@@ -436,7 +632,7 @@ h1 {
 }
 
 p {
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
   padding-top: 10px;
   opacity: 1;
@@ -712,7 +908,7 @@ body.hero-anime #switch {
     transition: all 200ms linear;
   }
 
-  .dropdown-toggle[aria-expanded="true"]+.dropdown-menu {
+  .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
