@@ -164,6 +164,7 @@ ul.social-network li {
   width: 450px;
   height: 130px;
   background-color: white;
+  overflow: hidden;
 }
 
 .white-box .btn {
