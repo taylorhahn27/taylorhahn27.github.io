@@ -9,6 +9,10 @@
   }
 } */
 
+body {
+  overflow-x: hidden;
+}
+
 .contact-graphic {
   margin-top: 0px;
   float: right;
