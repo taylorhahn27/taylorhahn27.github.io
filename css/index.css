@@ -2,12 +2,12 @@
   height: 200px;
 } */
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .location,
   .hours {
     text-size-adjust: 10px;
   }
-}
+} */
 
 .contact-graphic {
   margin-top: 0px;
