@@ -9,6 +9,8 @@
   }
 } */
 
+/* hero image social icons */
+
 body {
   overflow-x: hidden;
 }
@@ -400,7 +402,7 @@ input[type="submit"]:hover {
 
 .menu-divider {
   padding-bottom: 50px;
-  border-bottom: 2px dotted;
+  border-bottom: 4px dotted #c5d9e7;
 }
 
 .menu-section {

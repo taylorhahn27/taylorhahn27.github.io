@@ -1,21 +1,21 @@
 //menu replacing content
-$(".button")
-  .first()
-  .addClass("active");
+// $(".button")
+//   .first()
+//   .addClass("active");
 
-$(".button").click(function() {
-  var $this = $(this);
-  ($siblings = $this.parent().children()), (position = $siblings.index($this));
-  console.log(position);
+// $(".button").click(function() {
+//   var $this = $(this);
+//   ($siblings = $this.parent().children()), (position = $siblings.index($this));
+//   console.log(position);
 
-  $(".content section")
-    .removeClass("active")
-    .eq(position)
-    .addClass("active");
+//   $(".content section")
+//     .removeClass("active")
+//     .eq(position)
+//     .addClass("active");
 
-  $siblings.removeClass("active");
-  $this.addClass("active");
-});
+//   $siblings.removeClass("active");
+//   $this.addClass("active");
+// });
 
 // hero image
 $(".jumbotron").css({ height: $(window).height() + "px" });
