@@ -1,3 +1,205 @@
+/* RENT + JOIN HTML  */
+
+.parallax-wrapper {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.background {
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(-1px) scale(2);
+}
+.background--rent {
+  background-image: url("https://marlowesf.com/wp-content/uploads/2014/03/marlowe-outdoor-patio-1000x667.jpg");
+}
+
+.background--team {
+  background-image: url("http://www.fieldrestaurant.cz/images/field-team.jpg");
+}
+
+.title {
+  position: absolute;
+  margin: 0;
+  top: calc(50% - 50px);
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  height: 100px;
+  color: white;
+  font-size: 5rem;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.season-desc {
+  z-index: 1;
+  position: relative;
+  background: white;
+  color: black;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  line-height: 2em;
+  padding: 3rem;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+}
+.desc-wrapper {
+  margin: auto;
+  box-sizing: border-box;
+}
+.season--title {
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.season--about {
+  margin-top: 50px;
+  padding: 0;
+}
+
+@media (max-width: 998px) and (orientation: portrait) {
+  .season-desc {
+    padding: 1.5rem 20px;
+    font-size: 1rem;
+    height: unset;
+    min-height: 100vh;
+    .season-title {
+      font-size: 2.5rem;
+      margin: 20px 0;
+      letter-spacing: unset;
+    }
+    .season-about {
+      margin-top: 20px;
+    }
+  }
+}
+
+/* contact form */
+
+.message {
+  position: relative;
+  width: 500px;
+  height: 365px;
+  background: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 30px auto;
+  color: #777;
+  font-size: 12px;
+  border: solid 2px #c5d9e7;
+  border-radius: 15px;
+  z-index: 2;
+}
+.message:before,
+.message:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30px 20px 0px 0px;
+  border-color: white transparent transparent transparent;
+  border-width: 30px 20px 0px 0px;
+  bottom: -30px;
+  right: 25px;
+  z-index: 1;
+}
+.message:before {
+  border-color: #c5d9e7 transparent transparent transparent;
+  border-width: 30px 24px 0px 0px;
+  right: 23px;
+  bottom: -32px;
+}
+.name {
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  text-indent: 10px;
+  color: #888;
+  transition: all 0.6s ease;
+  box-sizing: border-box;
+  position: relative;
+}
+.name:focus {
+  background: rgba(0, 0, 0, 0.4);
+  outline: none;
+}
+.content {
+  margin-top: 15px;
+  width: 100%;
+  height: 160px;
+  background: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.6s ease;
+  resize: none;
+  text-indent: 10px;
+}
+.content:focus {
+  outline: none;
+  background: rgba(0, 0, 0, 0.4);
+}
+::-webkit-input-placeholder {
+  font-family: "Roboto", sans-serif;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Roboto", sans-serif;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Roboto", sans-serif;
+}
+:-ms-input-placeholder {
+  font-family: "Roboto", sans-serif;
+}
+.name button {
+  background: transparent;
+  width: 33%;
+  height: 100%;
+  border: solid 2px #c5d9e7;
+  border-radius: 4px;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  color: #c5d9e7;
+  transition: all 0.3s ease;
+}
+.name button:hover {
+  background: #c5d9e7;
+  color: white;
+  opacity: 0.5;
+}
+.name button:focus {
+  outline: none;
+  background: #c5d9e7;
+  color: white;
+  opacity: 1;
+}
+
+/*************************/
+
 /* .content-info {
   height: 200px;
 } */
@@ -13,6 +215,7 @@
 
 body {
   overflow-x: hidden;
+  margin: 0;
 }
 
 .contact-graphic {
@@ -26,7 +229,7 @@ body {
   }
 }
 
-/* menu switching */
+/* MENU REPLACEMENT */
 
 #eat-menu,
 #drink-menu {
@@ -54,6 +257,8 @@ body {
   height: 40px;
   background-color: #c5d9e7;
 }
+
+/*****************/
 
 /*FOOTER*/
 
@@ -96,6 +301,8 @@ footer a:hover {
   padding-top: 2em;
   color: white;
 }
+
+/*************************/
 
 /*SOCİAL İCONS*/
 
@@ -178,6 +385,7 @@ ul.social-network li {
   height: 130px;
   background-color: white;
   overflow-x: hidden;
+  border-radius: 10px;
 }
 
 .white-box .btn {
@@ -187,6 +395,12 @@ ul.social-network li {
   display: block;
   overflow-x: hidden;
 }
+
+.btn {
+  background-color: #e4b95b;
+}
+
+/*************************/
 
 /* .full-width {
   width: 100%;
@@ -223,7 +437,7 @@ ul.social-network li {
   color: #fff !important;
 }
 
-/* sunflower band graphic */
+/* SUNFLOWER BAND GRAPHIC */
 
 .breaker-image {
   /* height: 150px; */
@@ -231,7 +445,9 @@ ul.social-network li {
   /* float: right; */
 }
 
-/* getting rid of menu headers in mobile view */
+/*************************/
+
+/* GETTING RID OF MENU HEADERS IN MOBILE VIEW */
 
 @media (max-width: 767px) {
   .menu-header {
@@ -239,7 +455,9 @@ ul.social-network li {
   }
 }
 
-/* gallery */
+/*************************/
+
+/* GALLERY */
 
 .image > div {
   padding: 0 4px !important;
@@ -249,6 +467,8 @@ img {
   margin-top: 8px;
   vertical-align: middle;
 }
+
+/*************************/
 
 /* footer */
 /* .site-footer {
@@ -343,7 +563,7 @@ img {
   }
 }
 
-.news-container {
+/* .news-container {
   font-family: sans-serif;
   border-radius: 5px;
   min-height: 150px;
@@ -399,7 +619,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #496068;
   color: white;
-}
+} */
 
 /* menu */
 
@@ -996,6 +1216,8 @@ body.hero-anime #switch {
   transform: translate3d(0, 0px, 0);
 }
 
+/*************************/
+
 /* #Media
 ================================================== */
 
@@ -1059,3 +1281,5 @@ body.hero-anime #switch {
     margin-bottom: 20px !important;
   }
 }
+
+/*************************/
