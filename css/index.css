@@ -1,3 +1,12 @@
+@media only screen and (max-width: 479px) {
+  .white-box {
+    width: 90%;
+  }
+  .white-box-col {
+    width: 90%;
+  }
+}
+
 /* RENT + JOIN HTML  */
 
 .parallax-wrapper {
@@ -417,7 +426,7 @@ ul.social-network li {
   overflow-x: hidden;
 }
 
-.btn {
+.footer-btn {
   background-color: #e4b95b;
 }
 
