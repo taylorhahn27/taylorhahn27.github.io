@@ -1,3 +1,7 @@
+.active {
+  color: red;
+}
+
 /* gallery */
 
 h1 {
@@ -158,37 +162,45 @@ flex-direction: center;
   outline: 0 !important;
 }
 
-.eat:focus:after {
-  width: 0;
-  height: 0;
-  position: absolute;
-  content: "";
-  display: block;
-  /* Ads an arrow effect exploiting the way that browsers join borders together */
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-bottom: 13px solid white;
-  /* centers relative to parent */
-  left: 48.75%;
-  /* Compensates for width of border (arrow) */
-  margin-left: -20px;
+/* #eat-button:focus {
+  color: #2b8d7b;
 }
 
-.drink:focus:after {
+#drink-button:focus {
+  color: #2b8d7b;
+} */
+
+/* .eat:focus:after {
   width: 0;
   height: 0;
   position: absolute;
   content: "";
-  display: block;
-  /* Ads an arrow effect exploiting the way that browsers join borders together */
-  border-left: 8px solid transparent;
+  display: block; */
+/* Ads an arrow effect exploiting the way that browsers join borders together */
+/* border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-bottom: 13px solid white;
-  /* centers relative to parent */
-  left: 51.75%;
-  /* Compensates for width of border (arrow) */
-  margin-left: -8px;
-}
+  border-bottom: 13px solid white; */
+/* centers relative to parent */
+/* left: 48.75%; */
+/* Compensates for width of border (arrow) */
+/* margin-left: -20px;
+} */
+
+/* .drink:focus:after {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  display: block; */
+/* Ads an arrow effect exploiting the way that browsers join borders together */
+/* border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 13px solid white; */
+/* centers relative to parent */
+/* left: 51.75%; */
+/* Compensates for width of border (arrow) */
+/* margin-left: -8px;
+} */
 
 /* 
 .drink:active {
@@ -396,7 +408,8 @@ margin-right: 0px;
 }
 
 .background--team {
-  background-image: url("http://www.fieldrestaurant.cz/images/field-team.jpg");
+  /* background-image: url("http://www.fieldrestaurant.cz/images/field-team.jpg"); */
+  background-image: url("../images/sfc-team.jpg");
 }
 
 .title {

@@ -1,18 +1,30 @@
-$("#my_form").submit(function(event) {
-  event.preventDefault(); //prevent default action
-  var post_url = $(this).attr("action"); //get form action url
-  var request_method = $(this).attr("method"); //get form GET/POST method
-  var form_data = $(this).serialize(); //Encode form elements for submission
-
-  $.ajax({
-    url: post_url,
-    type: request_method,
-    data: form_data
-  }).done(function(response) {
-    //
-    $("#server-results").html(response);
-  });
+$("#button-background .button").on("click", function() {
+  $("#button-background .button.active").removeClass("active");
+  $(this).addClass("active");
 });
+
+//menu switching
+function show(id) {
+  document.getElementById("main_place").innerHTML = document.getElementById(
+    id
+  ).innerHTML;
+}
+
+// $("#my_form").submit(function(event) {
+//   event.preventDefault(); //prevent default action
+//   var post_url = $(this).attr("action"); //get form action url
+//   var request_method = $(this).attr("method"); //get form GET/POST method
+//   var form_data = $(this).serialize(); //Encode form elements for submission
+
+//   $.ajax({
+//     url: post_url,
+//     type: request_method,
+//     data: form_data
+//   }).done(function(response) {
+//     //
+//     $("#server-results").html(response);
+//   });
+// });
 
 //menu replacing content
 // $(".button")
@@ -64,12 +76,10 @@ $("body").on("mouseenter mouseleave", ".nav-item", function(e) {
 //   document.getElementById("demo").innerHTML = res;
 // }
 
-//menu switching
-function show(id) {
-  document.getElementById("main_place").innerHTML = document.getElementById(
-    id
-  ).innerHTML;
-}
+// function init() {
+//   about = document.getElementById("eat-button");
+//   about.style.color = "blue";
+// }
 
 // Use the CDN or host the script yourself
 // https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js
