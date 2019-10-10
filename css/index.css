@@ -9,16 +9,16 @@ h1 {
   margin-top: 50px;
 }
 
-p {
+/* p {
   text-align: center;
   margin-bottom: 60px;
-}
+} */
 
-h4 {
+/* h4 {
   text-align: center;
   line-height: 80px;
   font-weight: normal;
-}
+} */
 
 .masonry {
   /* Masonry container */
@@ -481,7 +481,7 @@ margin-right: 0px;
 
 .message {
   position: relative;
-  width: 500px;
+  width: 450px;
   height: 365px;
   background: white;
   padding-left: 15px;
@@ -1103,6 +1103,10 @@ body {
   text-transform: uppercase;
   font-size: 18px;
   color: black !important;
+}
+
+.hot .cold {
+  border-bottom: 0px !important;
 }
 
 .menu-price {
