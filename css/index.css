@@ -688,11 +688,11 @@ body {
 
 #eat-button,
 #drink-button {
-  background: none !important;
+  background: #fff;
   border: none;
   font-family: arial, sans-serif;
   /*input has OS specific font-family*/
-  color: #fff;
+  color: black;
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
