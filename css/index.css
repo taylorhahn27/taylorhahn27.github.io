@@ -1,3 +1,9 @@
+@media (max-width: 767px) {
+  .contact-info-col {
+    width: 33% !important;
+  }
+}
+
 .menu-price {
   white-space: nowrap;
 }
@@ -7,6 +13,7 @@
     width: 100% !important;
   }
 }
+
 
 .active {
   color: red;
