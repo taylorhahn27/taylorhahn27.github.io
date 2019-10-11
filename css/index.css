@@ -1,5 +1,5 @@
 .menu-price {
-  white-space: nowrap !important;
+  white-space: nowrap;
 }
 
 @media (max-width: 767px) {
@@ -182,11 +182,11 @@ flex-direction: center;
 }
 
 #eat-button:focus {
-  color: #2b8d7b !important;
+  color: #2b8d7b;
 }
 
 #drink-button:focus {
-  color: #2b8d7b !important;
+  color: #2b8d7b;
 }
 
 /* .eat:focus:after {
@@ -675,7 +675,7 @@ body {
 
 @media (max-width: 767px) {
   .second-menu-column {
-    margin-top: 50px;
+    margin-top: 50px !important;
   }
 }
 
