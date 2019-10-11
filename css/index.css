@@ -493,7 +493,7 @@ margin-right: 0px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 30px auto;
-  color: #777;
+  /* color: #777; */
   font-size: 12px;
   border: solid 2px #c5d9e7;
   border-radius: 15px;
@@ -528,7 +528,7 @@ margin-right: 0px;
   border: none;
   border-radius: 4px;
   text-indent: 10px;
-  color: #888;
+  /* color: #888; */
   -webkit-transition: all 0.6s ease;
   -o-transition: all 0.6s ease;
   transition: all 0.6s ease;
@@ -725,12 +725,12 @@ ul.social-network li {
   background-color: #3b5998;
 }
 
-.social-network a.icoLinkedin:hover {
-  background-color: #007bb7;
+.social-network a.icoInstagram:hover {
+  background-color: #cd486b;
 }
 
 .social-network a.icoFacebook:hover i,
-.social-network a.icoLinkedin:hover i {
+.social-network a.icoInstagram:hover i {
   color: #fff;
 }
 
