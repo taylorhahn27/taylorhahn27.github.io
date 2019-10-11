@@ -418,8 +418,8 @@ margin-right: 0px;
 }
 
 .background--team {
-  /* background-image: url("http://www.fieldrestaurant.cz/images/field-team.jpg"); */
-  background-image: url("../images/sfc-team.jpg");
+  background-image: url("http://www.fieldrestaurant.cz/images/field-team.jpg");
+  /* background-image: url("../images/sfc-team.jpg"); */
 }
 
 .title {
