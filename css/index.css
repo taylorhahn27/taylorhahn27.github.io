@@ -1,6 +1,6 @@
-* {
+.menu-price {
   white-space: nowrap;
-} 
+}
 
 @media (max-width: 767px) {
   .message {
