@@ -429,7 +429,7 @@ margin-right: 0px;
   flex: 1 0 auto;
   position: relative;
   z-index: -1;
-  height: 100vh;
+  height: 600px;
   width: 100vw;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
