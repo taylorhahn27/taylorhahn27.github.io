@@ -1,3 +1,14 @@
+// mail chimp
+(function($) {
+  window.fnames = new Array();
+  window.ftypes = new Array();
+  fnames[0] = "EMAIL";
+  ftypes[0] = "email";
+  fnames[2] = "LNAME";
+  ftypes[2] = "text";
+})(jQuery);
+var $mcj = jQuery.noConflict(true);
+
 $("#button-background .button").on("click", function() {
   $("#button-background .button.active").removeClass("active");
   $(this).addClass("active");

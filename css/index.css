@@ -1,3 +1,9 @@
+@media (max-width: 767px) {
+  .message {
+    width: 100% !important;
+  }
+}
+
 .active {
   color: red;
 }
@@ -481,7 +487,7 @@ margin-right: 0px;
 
 .message {
   position: relative;
-  width: 450px;
+  width: 550px;
   height: 365px;
   background: white;
   padding-left: 15px;
