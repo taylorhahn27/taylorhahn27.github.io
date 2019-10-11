@@ -45,6 +45,7 @@ h1 {
   column-gap: 1.5em;
   font-size: 0.85em;
 }
+
 .item {
   display: inline-block;
   background: #fff;
@@ -55,8 +56,10 @@ h1 {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  -webkit-box-shadow: 2px 2px 4px 0 #ccc;
   box-shadow: 2px 2px 4px 0 #ccc;
 }
+
 .item img {
   max-width: 100%;
 }
@@ -76,6 +79,7 @@ h1 {
     column-count: 2;
   }
 }
+
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   .masonry {
     -moz-column-count: 3;
@@ -83,6 +87,7 @@ h1 {
     column-count: 3;
   }
 }
+
 @media only screen and (min-width: 1201px) {
   .masonry {
     -moz-column-count: 4;
@@ -147,10 +152,12 @@ flex-direction: center;
     -moz-column-count: 2;
     column-count: 2;
   }
+
   .gallery div {
     margin: 0;
     width: 200px;
   }
+
   .modal-dialog {
     margin: 0 5vw;
   }
@@ -162,11 +169,13 @@ flex-direction: center;
     -moz-column-count: 1;
     column-count: 1;
   }
+
   .gallery div {
     margin: 0;
     width: 200px;
   }
 }
+
 /* gets rid of all outline when buttons are clicked */
 *:focus {
   outline: 0 !important;
@@ -261,20 +270,24 @@ h4 {
   /* 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 6px; */
 }
+
 .footer-bs .footer-brand,
 .footer-bs .footer-nav,
 .footer-bs .footer-social,
 .footer-bs .footer-ns {
   padding: 10px 25px;
 }
+
 .footer-bs .footer-nav,
 .footer-bs .footer-social,
 .footer-bs .footer-ns {
   border-color: transparent;
 }
+
 .footer-bs .footer-brand h2 {
   margin: 0px 0px 10px;
 }
+
 .footer-bs .footer-brand p {
   font-size: 13px;
   color: white;
@@ -284,18 +297,22 @@ h4 {
   list-style: none;
   padding: 0px;
 }
+
 .footer-bs .footer-nav ul.pages li {
   padding: 5px 0px;
 }
+
 .footer-bs .footer-nav ul.pages a {
   color: rgba(255, 255, 255, 1);
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .footer-bs .footer-nav ul.pages a:hover {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
+
 .footer-bs .footer-nav h4 {
   font-size: 11px;
   text-transform: uppercase;
@@ -307,12 +324,15 @@ h4 {
   list-style: none;
   padding: 0px;
 }
+
 .footer-bs .footer-nav ul.list li {
   padding: 5px 0px;
 }
+
 .footer-bs .footer-nav ul.list a {
   color: rgba(255, 255, 255, 0.8);
 }
+
 .footer-bs .footer-nav ul.list a:hover {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -322,17 +342,21 @@ h4 {
   list-style: none;
   padding: 0px;
 }
+
 .footer-bs .footer-social h4 {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+
 .footer-bs .footer-social li {
   padding: 5px 4px;
 }
+
 .footer-bs .footer-social a {
   color: white;
 }
+
 .footer-bs .footer-social a:hover {
   color: #2b8d7b;
   text-decoration: none;
@@ -344,12 +368,14 @@ h4 {
   letter-spacing: 3px;
   margin-bottom: 10px;
 }
+
 .footer-bs .footer-ns p {
   font-size: 14px;
   color: white;
 }
 
 @media (min-width: 768px) {
+
   .footer-bs .footer-nav,
   .footer-bs .footer-social,
   .footer-bs .footer-ns {
@@ -391,6 +417,7 @@ margin-right: 0px;
   overflow-x: hidden;
   overflow-y: scroll;
 }
+
 .background {
   background-position: center;
   background-size: cover;
@@ -413,6 +440,7 @@ margin-right: 0px;
   -webkit-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
 }
+
 .background--rent {
   background-image: url("https://marlowesf.com/wp-content/uploads/2014/03/marlowe-outdoor-patio-1000x667.jpg");
 }
@@ -453,11 +481,13 @@ margin-right: 0px;
   display: -ms-flexbox;
   display: flex;
 }
+
 .desc-wrapper {
   margin: auto;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .season--title {
   text-align: center;
   font-size: 4rem;
@@ -465,6 +495,7 @@ margin-right: 0px;
   text-transform: uppercase;
   margin: 20px 0;
 }
+
 .season--about {
   margin-top: 50px;
   padding: 0;
@@ -477,11 +508,13 @@ margin-right: 0px;
     /* height: unset; */
     min-height: 100vh;
   }
+
   .season-title {
     font-size: 2.5rem;
     margin: 20px 0;
     letter-spacing: unset;
   }
+
   .season-about {
     margin-top: 20px;
   }
@@ -503,6 +536,7 @@ margin-right: 0px;
   border-radius: 15px;
   z-index: 2;
 }
+
 .message:before,
 .message:after {
   position: absolute;
@@ -517,12 +551,14 @@ margin-right: 0px;
   right: 25px;
   z-index: 1;
 }
+
 .message:before {
   border-color: #c5d9e7 transparent transparent transparent;
   border-width: 30px 24px 0px 0px;
   right: 23px;
   bottom: -32px;
 }
+
 .name {
   margin-top: 15px;
   width: 100%;
@@ -540,10 +576,12 @@ margin-right: 0px;
   box-sizing: border-box;
   position: relative;
 }
+
 .name:focus {
   background: rgba(0, 0, 0, 0.4);
   outline: none;
 }
+
 .content {
   margin-top: 15px;
   width: 100%;
@@ -558,24 +596,30 @@ margin-right: 0px;
   resize: none;
   text-indent: 10px;
 }
+
 .content:focus {
   outline: none;
   background: rgba(0, 0, 0, 0.4);
 }
+
 ::-webkit-input-placeholder {
   font-family: "Roboto", sans-serif;
 }
+
 :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Roboto", sans-serif;
 }
+
 ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Roboto", sans-serif;
 }
+
 :-ms-input-placeholder {
   font-family: "Roboto", sans-serif;
 }
+
 .name button {
   background: transparent;
   width: 33%;
@@ -590,11 +634,13 @@ margin-right: 0px;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .name button:hover {
   background: #c5d9e7;
   color: white;
   opacity: 0.5;
 }
+
 .name button:focus {
   outline: none;
   background: #c5d9e7;
@@ -884,7 +930,7 @@ ul.social-network li {
 
 /* GALLERY */
 
-.image > div {
+.image>div {
   padding: 0 4px !important;
 }
 
@@ -1716,7 +1762,7 @@ body.hero-anime #switch {
     transition: all 200ms linear;
   }
 
-  .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
+  .dropdown-toggle[aria-expanded="true"]+.dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
