@@ -181,13 +181,13 @@ flex-direction: center;
   outline: 0 !important;
 }
 
-/* #eat-button:focus {
-  color: #2b8d7b;
+#eat-button:focus {
+  color: #2b8d7b !important;
 }
 
 #drink-button:focus {
-  color: #2b8d7b;
-} */
+  color: #2b8d7b !important;
+}
 
 /* .eat:focus:after {
   width: 0;
