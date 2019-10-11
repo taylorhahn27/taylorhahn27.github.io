@@ -1,5 +1,5 @@
 .menu-price {
-  white-space: nowrap;
+  white-space: nowrap !important;
 }
 
 @media (max-width: 767px) {

@@ -9,11 +9,6 @@
 })(jQuery);
 var $mcj = jQuery.noConflict(true);
 
-$("#button-background .button").on("click", function() {
-  $("#button-background .button.active").removeClass("active");
-  $(this).addClass("active");
-});
-
 //menu switching
 function show(id) {
   document.getElementById("main_place").innerHTML = document.getElementById(
@@ -56,24 +51,37 @@ function show(id) {
 //   $this.addClass("active");
 // });
 
-// hero image
-$(".jumbotron").css({ height: $(window).height() + "px" });
-
-$(window).on("resize", function() {
+(function($) {
+  // hero image
   $(".jumbotron").css({ height: $(window).height() + "px" });
-});
 
-//Menu On Hover
-$("body").on("mouseenter mouseleave", ".nav-item", function(e) {
-  if ($(window).width() > 750) {
-    var _d = $(e.target).closest(".nav-item");
-    _d.addClass("show");
-    setTimeout(function() {
-      _d[_d.is(":hover") ? "addClass" : "removeClass"]("show");
-    }, 1);
-  }
-});
+  $(window).on("resize", function() {
+    $(".jumbotron").css({ height: $(window).height() + "px" });
+  });
 
+  //Menu On Hover
+  $("body").on("mouseenter mouseleave", ".nav-item", function(e) {
+    if ($(window).width() > 750) {
+      var _d = $(e.target).closest(".nav-item");
+      _d.addClass("show");
+      setTimeout(function() {
+        _d[_d.is(":hover") ? "addClass" : "removeClass"]("show");
+      }, 1);
+    }
+  });
+
+  // active class color change
+  $("#button-background .button").on("click", function() {
+    $("#button-background .button.active").removeClass("active");
+    $(this).addClass("active");
+  });
+})(jQuery);
+
+// jQuery(document).ready(function($){
+
+//   // jQuery code is in here
+
+//   });
 // replacing one div with another div
 // function showMicro() {
 //   var str = document.getElementById("demo").innerHTML;
