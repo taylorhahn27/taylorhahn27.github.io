@@ -1,3 +1,13 @@
+// Add active class to the current button (highlight it)
+var header = document.getElementById("button-background");
+var btns = header.getElementsByClassName("button");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
 // mail chimp
 (function($) {
   window.fnames = new Array();
@@ -51,31 +61,58 @@ function show(id) {
 //   $this.addClass("active");
 // });
 
-(function($) {
-  // hero image
+// hero image
+$(".jumbotron").css({ height: $(window).height() + "px" });
+
+$(window).on("resize", function() {
   $(".jumbotron").css({ height: $(window).height() + "px" });
+});
 
-  $(window).on("resize", function() {
-    $(".jumbotron").css({ height: $(window).height() + "px" });
-  });
+//Menu On Hover
+// $("body").on("mouseenter mouseleave", ".nav-item", function(e) {
+//   if ($(window).width() > 750) {
+//     var _d = $(e.target).closest(".nav-item");
+//     _d.addClass("show");
+//     setTimeout(function() {
+//       _d[_d.is(":hover") ? "addClass" : "removeClass"]("show");
+//     }, 1);
+//   }
+// });
 
-  //Menu On Hover
-  $("body").on("mouseenter mouseleave", ".nav-item", function(e) {
-    if ($(window).width() > 750) {
-      var _d = $(e.target).closest(".nav-item");
-      _d.addClass("show");
-      setTimeout(function() {
-        _d[_d.is(":hover") ? "addClass" : "removeClass"]("show");
-      }, 1);
-    }
-  });
+// active class color change for menu buttons
+// $("#button-background .button").on("click", function() {
+//   $("#button-background .button.active").removeClass("active");
+//   $(this).addClass("active");
+// });
 
-  // active class color change
-  $("#button-background .button").on("click", function() {
-    $("#button-background .button.active").removeClass("active");
-    $(this).addClass("active");
-  });
-})(jQuery);
+// jQuery.noConflict();
+// (function($) {
+//   $(function() {
+//     // hero image
+//     $(".jumbotron").css({ height: $(window).height() + "px" });
+
+//     $(window).on("resize", function() {
+//       $(".jumbotron").css({ height: $(window).height() + "px" });
+//     });
+
+//     //Menu On Hover
+//     $("body").on("mouseenter mouseleave", ".nav-item", function(e) {
+//       if ($(window).width() > 750) {
+//         var _d = $(e.target).closest(".nav-item");
+//         _d.addClass("show");
+//         setTimeout(function() {
+//           _d[_d.is(":hover") ? "addClass" : "removeClass"]("show");
+//         }, 1);
+//       }
+//     });
+
+//     // active class color change for menu buttons
+//     $("#button-background .button").on("click", function() {
+//       $("#button-background .button.active").removeClass("active");
+//       $(this).addClass("active");
+//     });
+//   });
+// })(jQuery);
 
 // jQuery(document).ready(function($){
 

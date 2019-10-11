@@ -1,12 +1,10 @@
+/* contact columns side by side in mobile */
 @media (max-width: 767px) {
   .contact-info-col {
     width: 33% !important;
   }
 }
 
-.menu-price {
-  white-space: nowrap;
-}
 
 @media (max-width: 767px) {
   .message {
@@ -15,8 +13,9 @@
 }
 
 
-.active {
-  color: red;
+.active,
+.button:hover {
+  color: #2b8d7b;
 }
 
 /* gallery */
@@ -188,13 +187,13 @@ flex-direction: center;
   outline: 0 !important;
 }
 
-#eat-button:focus {
+/* #eat-button:focus {
   color: #2b8d7b;
 }
 
 #drink-button:focus {
   color: #2b8d7b;
-}
+} */
 
 /* .eat:focus:after {
   width: 0;
@@ -693,18 +692,18 @@ body {
   display: none;
 }
 
-#eat-button,
+/* #eat-button,
 #drink-button {
   background: #fff;
   border: none;
   font-family: arial, sans-serif;
-  /*input has OS specific font-family*/
+ 
   color: black;
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
   border-radius: 4px;
-}
+} */
 
 #button-background {
   padding-top: 10px;
@@ -834,6 +833,12 @@ ul.social-network li {
 
 .social-network a {
   background-color: #f9f9f9;
+}
+
+.social-network {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .white-box {
