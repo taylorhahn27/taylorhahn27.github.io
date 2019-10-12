@@ -6,24 +6,27 @@
 }
 
 
-@media (max-width: 767px) {
-  .message {
-    width: 100% !important;
-  }
-}
-
-
-.active,
+.active1,
 .button:hover {
   color: #2b8d7b;
 }
 
-/* gallery */
+/* .top-arrow {
+  border-bottom: 0.25rem solid;
+  border-right: 0.25rem solid;
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  color: #222;
+  transform: rotate(-135deg);
+} */
 
+/* gallery */
+/* 
 h1 {
   text-align: center;
   margin-top: 50px;
-}
+} */
 
 /* p {
   text-align: center;
@@ -184,6 +187,7 @@ flex-direction: center;
 
 /* gets rid of all outline when buttons are clicked */
 *:focus {
+  text-decoration: none !important;
   outline: 0 !important;
 }
 
@@ -692,18 +696,18 @@ body {
   display: none;
 }
 
-/* #eat-button,
+#eat-button,
 #drink-button {
   background: #fff;
-  border: none;
+  /* border: none;
   font-family: arial, sans-serif;
- 
   color: black;
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
+  display: inline-block; */
   border-radius: 4px;
-} */
+
+}
 
 #button-background {
   padding-top: 10px;
@@ -841,7 +845,7 @@ ul.social-network li {
   margin-right: auto;
 }
 
-.white-box {
+/* .white-box {
   width: 450px;
   height: 130px;
   background-color: white;
@@ -855,7 +859,7 @@ ul.social-network li {
   margin: auto;
   display: block;
   overflow-x: hidden;
-}
+} */
 
 .footer-btn {
   background-color: #e4b95b;
