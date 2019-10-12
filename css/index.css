@@ -4,15 +4,26 @@
   } */
 
 
+/* @media (max-width: 767px) {
+  .message {
+    width: 550px;
+  } */
+
 /* contact columns side by side in mobile */
 @media (max-width: 767px) {
   .contact-info-col {
     width: 33% !important;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
   }
 }
 
+.contact-info {
+  font-size: 15px;
+  padding-bottom: 30px;
+}
 
+
+/* changing color of active button press for menu */
 .active1,
 .button:hover {
   color: #2b8d7b;
@@ -493,6 +504,7 @@ margin-right: 0px;
   line-height: 2em;
   padding: 3rem;
   /* height: 100vh; */
+  min-height: 100% !important;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -523,7 +535,7 @@ margin-right: 0px;
     padding: 1.5rem 20px;
     font-size: 1rem;
     /* height: unset; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
   }
 
   .season-title {
@@ -541,7 +553,7 @@ margin-right: 0px;
 
 .message {
   position: relative;
-  width: 550px;
+  width: 450px;
   height: 365px;
   background: white;
   padding-left: 15px;
