@@ -1,3 +1,27 @@
+.contact-pages {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.contact-header {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 767px) {
+  .second-menu-column {
+    margin-top: 50px !important;
+  }
+}
+
+.test {
+  margin-top: 50px !important;
+}
+
+.title {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
 /* @media (min-width: 767px) {
   .location {
     padding-bottom: 5px;
@@ -18,6 +42,7 @@
 }
 
 .contact-info {
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   padding-bottom: 30px;
 }
@@ -290,6 +315,7 @@ h4 {
 }
 
 .footer-bs {
+  font-family: 'Open Sans', sans-serif;
   background-color: #c5d9e7;
   padding: 60px 40px;
   color: rgba(255, 255, 255, 1);
@@ -702,11 +728,7 @@ body {
   float: right;
 }
 
-@media (max-width: 767px) {
-  .second-menu-column {
-    margin-top: 50px !important;
-  }
-}
+
 
 /* MENU REPLACEMENT */
 
@@ -718,6 +740,10 @@ body {
 #eat-button,
 #drink-button {
   background: #fff;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  padding-top: 5px;
   /* border: none;
   font-family: arial, sans-serif;
   color: black;
@@ -916,6 +942,13 @@ ul.social-network li {
   max-width: 100%;
   height: auto;
 } */
+
+
+.navbar {
+  font-family: 'Open Sans', sans-serif;
+
+  text-transform: uppercase;
+}
 
 .navbar-nav a {
   color: #fff !important;
@@ -1186,10 +1219,13 @@ body {
 
 .menu-ingredients,
 .adds-sides {
+  color: gray;
   font-size: 85%;
 }
 
 .menu-text {
+  padding-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
   border-bottom: 1px dashed grey;
   text-transform: uppercase;
   font-size: 18px;
