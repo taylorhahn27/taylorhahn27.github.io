@@ -46,6 +46,7 @@
 }
 
 .contact-info {
+  line-height: normal;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   padding-bottom: 30px;
