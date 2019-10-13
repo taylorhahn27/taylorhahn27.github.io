@@ -1224,6 +1224,7 @@ body {
 
 .menu-ingredients,
 .adds-sides {
+  line-height: 20px;
   color: gray;
   font-size: 85%;
 }
