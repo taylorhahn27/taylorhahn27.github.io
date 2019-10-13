@@ -2,14 +2,13 @@
   font-size: 12px
 }
 
-.contact-pages {
+/* .contact-pages {
   font-family: 'Open Sans', sans-serif;
 
 }
 
-.contact-header {
-  font-family: 'Open Sans', sans-serif;
-}
+
+
 
 @media (max-width: 767px) {
   .second-menu-column {
@@ -22,6 +21,7 @@
 }
 
 .title {
+  font-size: 60px !important;
   font-family: 'Open Sans', sans-serif;
 
 }
@@ -34,7 +34,7 @@
 
 @media (max-width: 767px) {
   .message {
-    width: 550px;
+    width: 100% !important;
   }
 }
 
@@ -48,8 +48,8 @@
 
 
 .contact-info {
-  line-height: normal;
   font-family: 'Open Sans', sans-serif;
+  line-height: normal;
   font-size: 15px;
   padding-bottom: 30px;
 }
@@ -521,7 +521,7 @@ margin-right: 0px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
-  height: 100px;
+  /* height: 100px; */
   color: white;
   font-size: 5rem;
   background: rgba(0, 0, 0, 0.4);
@@ -586,7 +586,7 @@ margin-right: 0px;
 
 .message {
   position: relative;
-  width: 100%;
+  width: 550px;
   height: 365px;
   background: white;
   padding-left: 15px;
@@ -951,11 +951,11 @@ ul.social-network li {
 } */
 
 
-.navbar {
-  font-family: 'Open Sans', sans-serif;
-
+/* .navbar,
+.nav-text {
+  font-family: 'Open Sans', sans-serif !important;
   text-transform: uppercase;
-}
+} */
 
 .navbar-nav a {
   color: #fff !important;
@@ -1209,7 +1209,7 @@ body {
   text-decoration: none;
   line-height: 1;
   background-color: white;
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
 }
 
 .fab {
