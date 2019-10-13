@@ -1,3 +1,11 @@
+@media (max-width: 767px) {
+  .menu-text {
+    padding-top: 15px !important;
+  }
+}
+
+
+
 .phone-number {
   font-size: 12px
 }
@@ -10,11 +18,11 @@
 
 
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .second-menu-column {
     margin-top: 50px !important;
   }
-}
+} */
 
 .test {
   margin-top: 50px !important;
