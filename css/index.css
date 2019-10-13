@@ -748,7 +748,7 @@ body {
 #drink-button {
   background: #fff;
   border: none;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   /* font-family: 'Josefin Sans', sans-serif; */
   /* text-transform: uppercase; */
   padding-top: 5px;
