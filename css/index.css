@@ -1,3 +1,11 @@
+/* .contact-page-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+
+
 @media (max-width: 767px) {
   .menu-text {
     padding-top: 15px !important;
@@ -46,6 +54,7 @@
 
 
 @media (max-width: 767px) {
+
   .message1,
   .message {
     width: 100% !important;
@@ -722,7 +731,6 @@ margin-right: 0px;
 }
 
 .phone {
-  float: left;
   margin-top: 15px;
   width: 40%;
   height: 40px;
