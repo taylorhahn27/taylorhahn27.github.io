@@ -722,6 +722,7 @@ margin-right: 0px;
 }
 
 .phone {
+  float: left;
   margin-top: 15px;
   width: 40%;
   height: 40px;
