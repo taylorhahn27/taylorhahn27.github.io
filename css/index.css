@@ -42,6 +42,7 @@
   } */
 
 @media (max-width: 767px) {
+
   .message1,
   .message {
     width: 100% !important;
@@ -448,6 +449,7 @@ h4 {
 }
 
 @media (min-width: 768px) {
+
   .footer-bs .footer-nav,
   .footer-bs .footer-social,
   .footer-bs .footer-ns {
@@ -809,6 +811,7 @@ body {
 
 #eat-button,
 #drink-button {
+  width: 100px;
   background: #fff;
   border: none;
   padding: 5px;
@@ -1068,7 +1071,7 @@ ul.social-network li {
 
 /* GALLERY */
 
-.image > div {
+.image>div {
   padding: 0 4px !important;
 }
 
@@ -1905,7 +1908,7 @@ body.hero-anime #switch {
     transition: all 200ms linear;
   }
 
-  .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
+  .dropdown-toggle[aria-expanded="true"]+.dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
