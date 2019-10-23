@@ -1,3 +1,5 @@
+
+// switch menu classes
 var header = document.getElementById("button-background");
 var btns = header.getElementsByClassName("button");
 for (var i = 0; i < btns.length; i++) {

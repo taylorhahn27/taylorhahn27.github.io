@@ -811,6 +811,8 @@ body {
 
 #eat-button,
 #drink-button {
+  font-family: 'Ubuntu', sans-serif;
+  /* text-transform: uppercase; */
   width: 100px;
   background: #fff;
   border: none;
@@ -1017,11 +1019,10 @@ ul.social-network li {
   height: auto;
 } */
 
-/* .navbar,
-.nav-text {
-  font-family: 'Open Sans', sans-serif !important;
+.navbar {
+  font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
-} */
+}
 
 .navbar-nav a {
   color: #fff !important;
