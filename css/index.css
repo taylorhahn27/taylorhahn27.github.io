@@ -1,3 +1,9 @@
+@media only screen and (max-width: 768px) {
+  .mc-banner {
+    z-index: 9999 !important;
+  }
+}
+
 /* .contact-page-img {
   display: block;
   margin-left: auto;
